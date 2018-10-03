@@ -67,7 +67,7 @@ h1 {
 }
 
 
-.loginbox input[type="signin"] {
+.loginbox input[type="button"] {
 	border: none;
 	outline: none;
 	height: 40px;
@@ -79,7 +79,7 @@ h1 {
 }
 
 
-.loginbox input[type="signin"]:hover
+.loginbox input[type="button"]:hover
 {
 	cursor: pointer;
         background: #ffc107;
