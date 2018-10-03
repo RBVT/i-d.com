@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>Sign in</title>
+<link rel="stylesheet" type="text/css" href="../css/signin.css">
+<link rel="icon" href="favicon.ico" sizes="16x16" type="../images/favicon.ico">
+
+<body>
+
+<div class="loginbox">
+<img src="../images/avatar.png" class="avatar">
+<h1> I-D.COM </h1>
+<form>
+<p>Username</p>
+<input type="text" autocomplete='off' name="" placeholder="Username">
+<p>Password</p>
+<input type="password" autocomplete='off' name="" placeholder="Password">
+
+
+
+<input type="button" name="" id="signin" value="Sign in">
+
+
+<script>
+
+var checkLoginPass = function ()
+
+{
+
+var login = document.getElementById("login").value;
+var pass = document.getElementById("password").value;
+if (login === "admin" && pass === "admin") {
+window.location.replace("../html/player.html");
+
+}
+
+else
+
+{
+
+	//do something else;
+}
+}
+
+</script>
+
+
+<a href="../html/recovery.html">Lost your password?</a><br>
+<a href="../html/signup.html">Don't have an account?</a>
+</form>
+</div>
+
+</body>
+
+</head>
+</html>
